@@ -6,8 +6,7 @@
 
 **Stack:** ASP.NET Core (.NET 10) + Polly 8 + SignalR + a static Bootstrap dashboard (no Node, just CDN).
 
-![Screenshot](images/ui.png)
-
+<img src="images/ui.png" alt="ASP.NET Polly Lab Screenshot" width="840" />
 ---
 
 ## How to trigger the stress
