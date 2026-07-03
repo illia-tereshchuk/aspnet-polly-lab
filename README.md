@@ -1,10 +1,12 @@
 # Polly Circuit Breaker
 
-- A fake dependency I break by hand.
-- A Polly resilience layer that withstands those breakages.
-- A live dashboard where it all shows up in real time.
+- Fake dependency that can be broken in various ways.
+- **Polly** resilience layer that withstands those breakages.
+- Live dashboard where it all shows up in real time.
 
-**Stack:** ASP.NET Core (.NET 10) + Polly 8 + SignalR + a static Bootstrap dashboard (no Node, everything via CDN).
+**Stack:** ASP.NET Core (.NET 10) + Polly 8 + SignalR + a static Bootstrap dashboard (no Node, just CDN).
+
+![Screenshot](images/ui.png)
 
 ---
 
