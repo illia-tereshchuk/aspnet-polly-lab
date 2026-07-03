@@ -3,10 +3,10 @@ using Polly;
 using Polly.CircuitBreaker;
 using Polly.Retry;
 using Polly.Timeout;
-using PollyCircuitBreakerConcept.FakeDep;
-using PollyCircuitBreakerConcept.Sgr;
+using AspNetPollyLab.FakeDep;
+using AspNetPollyLab.Sgr;
 
-namespace PollyCircuitBreakerConcept.Rslc;
+namespace AspNetPollyLab.Rslc;
 
 /// <summary>
 /// Resilience layer around the dependency call.

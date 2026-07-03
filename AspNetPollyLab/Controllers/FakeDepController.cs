@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using PollyCircuitBreakerConcept.FakeDep;
+using AspNetPollyLab.FakeDep;
 
-namespace PollyCircuitBreakerConcept.Controllers;
+namespace AspNetPollyLab.Controllers;
 
 [ApiController]
 [Route("api")]

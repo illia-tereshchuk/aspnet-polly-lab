@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using PollyCircuitBreakerConcept.LoadGen;
+using AspNetPollyLab.LoadGen;
 
-namespace PollyCircuitBreakerConcept.Controllers;
+namespace AspNetPollyLab.Controllers;
 
 [ApiController]
 [Route("api")]

@@ -2,10 +2,10 @@ using System.Diagnostics;
 using Polly.CircuitBreaker;
 using Polly.Timeout;
 
-using PollyCircuitBreakerConcept.Sgr;
-using PollyCircuitBreakerConcept.Rslc;
+using AspNetPollyLab.Sgr;
+using AspNetPollyLab.Rslc;
 
-namespace PollyCircuitBreakerConcept.FakeDep;
+namespace AspNetPollyLab.FakeDep;
 
 public record FakeDepCallResult(bool Ok, long LatencyMs, string Message); // Product of calling FakeDep
 

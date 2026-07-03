@@ -1,4 +1,4 @@
-namespace PollyCircuitBreakerConcept.FakeDep;
+namespace AspNetPollyLab.FakeDep;
 
 public class FakeDep(FakeDepState fakeDepState) // Primary constructor with "backing field", C# 12
 {

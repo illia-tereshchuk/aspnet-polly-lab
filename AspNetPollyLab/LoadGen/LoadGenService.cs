@@ -1,6 +1,6 @@
-using PollyCircuitBreakerConcept.FakeDep;
+using AspNetPollyLab.FakeDep;
 
-namespace PollyCircuitBreakerConcept.LoadGen;
+namespace AspNetPollyLab.LoadGen;
 
 /// <summary>
 /// Background loop that continuously hits the dependency at the configured rate while enabled.

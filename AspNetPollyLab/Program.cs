@@ -1,7 +1,7 @@
-using PollyCircuitBreakerConcept.FakeDep;
-using PollyCircuitBreakerConcept.LoadGen;
-using PollyCircuitBreakerConcept.Sgr;
-using PollyCircuitBreakerConcept.Rslc;
+using AspNetPollyLab.FakeDep;
+using AspNetPollyLab.LoadGen;
+using AspNetPollyLab.Sgr;
+using AspNetPollyLab.Rslc;
 
 var builder = WebApplication.CreateBuilder(args);
 

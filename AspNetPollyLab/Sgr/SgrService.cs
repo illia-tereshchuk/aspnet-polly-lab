@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.SignalR;
 
-namespace PollyCircuitBreakerConcept.Sgr;
+namespace AspNetPollyLab.Sgr;
 
 public class SgrService(IHubContext<SgrHub> hubCtx)
 {

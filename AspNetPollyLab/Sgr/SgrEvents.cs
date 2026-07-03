@@ -1,4 +1,4 @@
-namespace PollyCircuitBreakerConcept.Sgr;
+namespace AspNetPollyLab.Sgr;
 
 public record SgrEvt_FakeDep_Called(bool Ok, long LatencyMs, string Message, DateTime At);
 

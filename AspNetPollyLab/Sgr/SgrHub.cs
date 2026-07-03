@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.SignalR;
 
-namespace PollyCircuitBreakerConcept.Sgr;
+namespace AspNetPollyLab.Sgr;
 
 public class SgrHub : Hub; // One-way: server -> client
