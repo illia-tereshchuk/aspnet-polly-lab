@@ -1,4 +1,4 @@
-# Polly Circuit Breaker — sample notes
+# Polly Circuit Breaker
 
 - A fake dependency I break by hand.
 - A Polly resilience layer that withstands those breakages.
@@ -11,7 +11,7 @@
 ## How to trigger the stress
 
 ```bash
-dotnet run --project PollyCircuitBreakerConcept   # → http://localhost:5279
+dotnet run
 ```
 
 - **Slowness:** Latency → 1500 ms → timeouts and retries.
@@ -45,15 +45,6 @@ FakeDep.CallFakeDepAsync             ← fake dependency
         │
 each event → SgrService.Broadcast → SignalR → app.js → dashboard
 ```
-
----
-
-## FakeDep — the dependency I control
-
-## FakeDepCaller — the entry point
-
-The single path to call the dependency: both the controller and the load generator go only here.
-By role — an **Ambassador** / sidecar.
 
 ## RslcFakeDepPipeline — the heart
 
