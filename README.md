@@ -1,4 +1,4 @@
-# Polly Circuit Breaker
+# ASP.NET Polly Lab
 
 - Fake dependency that can be broken in various ways.
 - **Polly** resilience layer that withstands those breakages.
